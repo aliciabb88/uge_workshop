@@ -1,3 +1,61 @@
+   clear
+   This command clears out the terminal
+
+   history
+   all your commands
+
+   cd
+   to go home
+
+   mv
+   to move or rewrite
+
+   which
+   show where it is
+
+
+   git status
+   check the status of repository, awaiting commits, needed to add, have been changed.
+
+   git add
+   adds files to staging and tracks them. Git will now track changes.
+
+   git commit -m 
+   commit with message added. Permenant changes in your repository. 
+
+   Repository
+   Consists of the staging area, timeline and series of events
+
+   Git status 
+   Shows what is on staging
+
+   Git log 
+   Show what is commited
+
+   ls -al
+   list all
+
+   dr...
+   this is a directory
+
+   cat
+   show snap shot of file
+
+   . .. .git
+   Any folders/files that start with dots are hidden  
+
+
+   rm 
+   remove files/folders
+
+   rmdir
+   remove directory
+
+   
+
+
+   --version
+
     1  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
     2  subl
     3  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
