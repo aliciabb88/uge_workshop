@@ -55,6 +55,7 @@ git status
    checkout branches
 
    touch
+<<<<<<< HEAD
    make a new file, or change timestamp
 
    Label
@@ -98,6 +99,9 @@ git status
 
 
     1  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+=======
+   make a new file, or change timestamp    1  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+>>>>>>> 0b3a2432193f256f4d50a27384d5776484cea899
     2  subl
     3  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
     4  subl
