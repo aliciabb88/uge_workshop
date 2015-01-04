@@ -1,0 +1,242 @@
+git status
+   check the status of repository, awaiting commits, needed to add, have been changed.
+
+   git add
+   adds files to staging and tracks them. Git will now track changes.
+
+   git commit -m 
+   commit with message added. Permenant changes in your repository. 
+
+   Repository
+   Consists of the staging area, timeline and series of events
+
+   Git status 
+   Shows what is on staging
+
+   Git log 
+   Show what is commited
+
+   ls -al
+   list all
+
+   dr...
+   this is a directory
+
+   cat
+   show snap shot of file
+
+   . .. .git
+   Any folders/files that start with dots are hidden  
+
+
+   rm 
+   remove files/folders
+
+   rmdir
+   remove directory
+
+   git checkout -- <file>... 
+   to discard changes in working directory
+
+   git add <file>...
+
+   git commit -a 
+   use this to commit only certain things
+
+   git diff --stage
+   Outputs all the content and puts it into less
+   shows changes in green and removals in red
+
+   Git
+   version control system
+   A graph of states in which your files has existed
+
+   Git checkout <branch>
+   checkout branches
+
+   touch
+   make a new file, or change timestamp
+
+   Label
+   Each point in time can have it's own lable
+
+   Labels:
+   Head - most recent commit & place in the timeline that you are currently
+
+   Master - automatically label git gives to your first branch
+   you can have more than one branch
+
+   Branch - A type of lable that points to a specific point in time
+
+   Inactive branch is gray, active green asteriks
+
+   $ git checkout <label>
+
+   git status shows what branch your are on
+
+   touch
+   cmd to make a new file
+
+   Remotes
+   points to another computer like github
+
+   Github
+   central repository for git, because people work well with a centralized source
+
+   $ git remote -v
+   Verifies if there are any remotes
+
+   Origin is the name of the remote for your repository 
+
+   $ git push 
+   $ git push -u origin master
+   push changes to master
+
+
+
+
+
+
+    1  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+    2  subl
+    3  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+    4  subl
+    5  pwd
+    6  cd /
+    7  ls
+    8  ls -t
+    9  ls -lt
+   10  ls -tr
+   11  ls -t
+   12  ls -r
+   13  man ls
+   14  man ls
+   15  ls -h
+   16  man ls
+   17  ls -i
+   18  man ls
+   19  ls -s
+   20  cd /Users/aliciabennatts
+   21  ls
+   22  ls l
+   23  ls -l
+   24  cd Documents
+   25  pwd
+   26  ls
+   27  cd Organized
+   28  ls
+   29  cd Inspiration
+   30  cd _Inspiration
+   31  ls
+   32  cd ..
+   33  cd ..
+   34  cd Organized
+   35  ../..
+   36  cd ../..
+   37  pwd
+   38  ls
+   39  cd Library
+   40  ls
+   41  ..
+   42  cd ..
+   43  ls
+   44  cd Applications
+   45  ls
+   46  cd ..
+   47  cd library
+   48  ls
+   49  cd ..
+   50  cd library
+   51  cd
+   52  ls ~
+   53  ls /
+   54  ls /-l
+   55  ls -l/
+   56  ls / -l
+   57  ls -l /
+   58  ls .
+   59  ls
+   60  history
+   61  history | less
+   62  pwd
+   63  cd
+   64  history > my_history
+   65  ls >> my_history
+   66  less my-history
+   67  less my_history
+   68  subl
+   69  mkdir uge_workshop
+   70  ls -l
+   71  mv my_history uge_workshop/
+   72  ls
+   73  cd uge_workshop
+   74  mv my_history unix_notes.txt
+   75  ls
+   76  which subl
+   77  ls
+   78  cd ..
+   79  ls
+   80  cd Applications
+   81  ls /Applications/
+   82  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+   83  ls /usr/local/bin/subl
+   84  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   85  which subl
+   86  ls
+   87  subl
+   88  subl
+   89  which subl
+   90  brew update
+   91  which subl
+   92  ls
+   93  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+   94  subl
+   95  which subl
+   96  subl
+   97  pdw
+   98  pwd
+   99  cd uge_workshop
+  100  ls
+  101  ..
+  102  cd
+  103  cd uge_workshop
+  104  subl unix_notes.txt
+  105  which git
+  106  git --version
+  107  git config --global user.name "Alicia Bennatts"
+  108  git config --global user.email "Alicia.Bennatts.com"
+  109  git config --global user.email "Alicia.Bennatts@gmail.com"
+  110  git config -l
+  111  git config -l | sort
+  112  man git-config
+  113  pwd
+  114  ls
+  115  git init
+  116  git status
+  117  git add unix-notes.txt
+  118  git add unix_notes.txt
+  119  git status
+  120  git commit -m "adding unix notes, first draft"
+  121  git status
+  122  git log
+  123  ls
+  124  ls -al
+  125  cat unix_notes.txt
+  126  ls -l
+  127  ls -al
+  128  subl unix_notes.txt
+  129  git status
+  130  git add unix_notes.txt
+  131  git status
+  132  git diff --staged
+  133  git commit -m "add notes and hidden files"
+  134  git log
+  135  git branch git-notes
+  136  git branch
+  137  git checkout git-notes
+  138  git branch
+  139  git status
+  140  touch git_notes.txt
+  141  git status
+  142  subl git_notes.txt
+  143  history >> git_notes.txt
